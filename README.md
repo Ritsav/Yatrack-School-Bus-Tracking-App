@@ -102,13 +102,13 @@ This was a small idea for a startup that I worked with along with my co-founder.
 ## Application 
 
 ### Login Page
-![Login Page](assets/loginPage.png)
+<img src="assets/loginPage.png" alt="Login Page" width="300" height="500"/>
 
 ### User's Home Page
-![Home Page](assets/userHomePage.png)
+<img src="assets/userHomePage.png" alt="Home Page" width="300" height="500"/>
 
 ### User's MapView
-![MapView](assets/mapView.jpg)
+<img src="assets/mapView.jpg" alt="MapView" width="300" height="500"/>
 
 ### Driver's Panel
-![Driver's Page](assets/driversPanel.png) 
+<img src="assets/driversPanel.png" alt="Driver's Page" width="300" height="500"/>
