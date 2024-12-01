@@ -1,50 +1,96 @@
-# Welcome to your Expo app 👋
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+# Yatrack 🚍
+Yatrack is a real-time location tracking system designed to improve school bus management and safety. This app enables drivers to update their bus's real-time location, sends notifications to parents or students as the bus approaches pick-up/drop-off points, and provides administrators with tools to manage fleet and routes.
 
-## Get started
+## Features ✨
 
-1. Install dependencies
+### Driver Dashboard:
+- Real-time Location Updates: Allows drivers to share their current location in real-time with the system.
+- Proximity Notifications: Sends notifications to users when the bus is nearing their pick-up/drop-off points.
+- Start/Stop Tracking: Drivers can activate or deactivate location tracking with a simple toggle.
+- Offline Safety: Automatically stops tracking when the app goes into the background.
 
-   ```bash
-   npm install
-   ```
+### User Interface:
+- Real-Time Bus Tracking: Users can view the live location of their bus on a map.
+- Route-Based Notifications: Receives alerts specific to their registered bus route and stop.
 
-2. Start the app
+### Admin Tools:
+- Fleet Management: Admins can monitor the status and location of all buses.
+- Route Filters: Filter and display buses based on selected routes.
+- Custom Notifications: Admins can send customized notifications to users.
 
-   ```bash
-    npx expo start
-   ```
 
-In the output, you'll find options to open the app in a
+## Tech Stack 🛠️
+### Frontend:
+- React Native: For enabling cross-platform application use.
+- Expo: For development tools such as location services and font loading.
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+### Backend:
+- Node.js & Express: API server to handle user and driver notifications.
+- Firebase:
+    - Realtime Database: For storing live bus locations and status.
+    - Firestore: To manage user, driver, and route data.
+    - Firebase Cloud Messaging (FCM): For push notifications.
 
-## Get a fresh project
+### Additional Tools:
+- Expo Keep Awake: Prevents the device from sleeping during active tracking.
+- Haversine Formula: Calculates the distance between coordinates to trigger proximity alerts.
+## Installation and Setup 🚀
 
-When you're ready, run:
+#### 1.  Clone the Repository:
 
 ```bash
-npm run reset-project
+    git clone https://github.com/Ritsav/Yatrack.git
+    cd Yatrack
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+#### 2. Install Dependencies
+```bash
+npm install
+```
 
-## Learn more
+#### 3. Set Up Firebase:
+- See the way to setup firebase in the Database.md documentation file.
 
-To learn more about developing your project with Expo, look at the following resources:
+#### 4. Update to latest expo version:
+```bash
+npx expo install expo@latest
+```
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+#### 5. Run the Application:
+```bash
+npm start
+```
+## Usage 🏃‍♂️
 
-## Join the community
+- Drivers: Login and start tracking to share your location.
+- Users: Register for notifications specific to your bus route and pick-up points.
+- Admins: Use the fleet management portal to register, monitor, handle all buses & user data.
+## Contributing 🤝
 
-Join our community of developers creating universal apps.
+Contributions are always welcome! Please follow these steps:
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+#### 1. Fork the repository.
+
+#### 2. Create a new branch:
+```bash
+git checkout -b feature-name
+```
+
+#### 3. Commit your changes and push:
+```bash
+git commit -m "Add a new feature"
+git push origin feature-name
+```
+
+#### 4. Create a pull request.
+## Authors
+
+- [@Ritsav](https://www.github.com/Ritsav)
+- [@Arpzdev](https://github.com/arpzdev)
+
+
+## Background 
+
+This was a small idea for a startup that I worked with along with my co-founder. In the process to try to bring forth this idea to fruition, we managed to build a complete product with a working database, backend and frontend but sadly enough, we couldn't work out the startup. 
