@@ -26,6 +26,7 @@ Yatrack is a real-time location tracking system designed to improve school bus m
 - Expo: For development tools such as location services and font loading.
 
 
+
 ### Backend:
 - Node.js & Express: API server to handle user and driver notifications.
 - Firebase:
@@ -58,7 +59,10 @@ npm install
 npx expo install expo@latest
 ```
 
-#### 5. Run the Application:
+#### 5. Add your Google Maps API in app.json:
+- Change the text "YOUR_GOOGLE_MAPS_API_KEY" with your actual maps api.
+
+#### 6. Run the Application:
 ```bash
 npm start
 ```
@@ -94,3 +98,17 @@ git push origin feature-name
 ## Background 
 
 This was a small idea for a startup that I worked with along with my co-founder. In the process to try to bring forth this idea to fruition, we managed to build a complete product with a working database, backend and frontend but sadly enough, we couldn't work out the startup. 
+
+## Application 
+
+### Login Page
+![Login Page](assets/loginPage.png)
+
+### User's Home Page
+![Home Page](assets/userHomePage.png)
+
+### User's MapView
+![MapView](assets/mapView.jpg)
+
+### Driver's Panel
+![Driver's Page](assets/driversPanel.png) 
