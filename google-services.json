@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "697979394684",
+    "firebase_url": "https://yatrack-app-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "yatrack-app",
+    "storage_bucket": "yatrack-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:697979394684:android:6af874bffcda0f51b3c7f9",
+        "android_client_info": {
+          "package_name": "com.example.set_pickup"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCkg03JKBqep4QP9sjSxN-ISCI_tv2yJQE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:697979394684:android:7fd55b9267e05d0fb3c7f9",
+        "android_client_info": {
+          "package_name": "com.ritsav.Yatrack"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCkg03JKBqep4QP9sjSxN-ISCI_tv2yJQE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
