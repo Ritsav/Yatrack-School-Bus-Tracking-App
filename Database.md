@@ -36,9 +36,12 @@ const firebaseConfig = {
 5. In your 'drivers' collection, Add fields with string type values busNo, email, firstName, lastName, number and route. 
 
 Format it something like this:
+
+
 ![Test Driver fields initialization](assets/test_driver.png)
 
 6. Similarly, in your 'users' collection:
+   
 ![Test User fields initialization](assets/test_user.png)
 
 7. Lastly, change your firestore rules to this:
