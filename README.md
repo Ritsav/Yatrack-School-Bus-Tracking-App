@@ -109,14 +109,3 @@ git push origin feature-name
 ## Background 
 
 This was a small idea for a startup that I worked with along with my co-founder. In the process to try to bring forth this idea to fruition, we managed to build a complete product with a working database, backend and frontend but sadly enough, we couldn't work out the startup. 
-
-## Application 
-
-### Login Page
-<img src="assets/loginPage.png" alt="Login Page" width="300" height="500"/>
-
-### User's Home Page
-<img src="assets/userHomePage.png" alt="Home Page" width="300" height="500"/>
-
-### User's MapView
-<img src="assets/mapView.jpg" alt="MapView" width="300" height="500"/>
