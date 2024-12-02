@@ -67,3 +67,12 @@ service cloud.firestore {
 ```
 
 8. That's it! Now you can login using these credentials in Yatrack and start using it.
+
+## Realtime Database Addons
+
+At this point, you're mostly done with the firebase setup minus a few things. Move to the following steps only after you have created and initialized the driver's account and toggled start tracking at least once.
+Follow the steps for showing tip in user's Home Screen:
+
+1. Follow the path, FIREBASE_DATABASE_URL --> routes --> '0'(or any route that you've assigned to the driver) --> Click on add or plus beside the routeNo and add a key 'tip' with any value.
+
+2. Now you can login from your user's account and see it in your tip section at the home page. 
