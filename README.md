@@ -4,15 +4,26 @@ Yatrack is a real-time location tracking system designed to improve school bus m
 
 ## Features ✨
 
+### Login/Authentication System
+- Secure and robust auth system designed using firebase and react native logic.
+
+<img src="assets/loginPage.png" alt="Login Page" width="300" height="600"/>
+
 ### Driver Dashboard:
 - Real-time Location Updates: Allows drivers to share their current location in real-time with the system.
 - Proximity Notifications: Sends notifications to users when the bus is nearing their pick-up/drop-off points.
 - Start/Stop Tracking: Drivers can activate or deactivate location tracking with a simple toggle.
 - Offline Safety: Automatically stops tracking when the app goes into the background.
 
+<img src="assets/driversPanel.png" alt="Driver's Page" width="300" height="600"/>
+
 ### User Interface:
 - Real-Time Bus Tracking: Users can view the live location of their bus on a map.
 - Route-Based Notifications: Receives alerts specific to their registered bus route and stop.
+
+<img src="assets/userHomePage.png" alt="Home Page" width="300" height="600"/>
+
+<img src="assets/mapView.jpg" alt="MapView" width="300" height="600"/>
 
 ### Admin Tools:
 - Fleet Management: Admins can monitor the status and location of all buses.
@@ -109,6 +120,3 @@ This was a small idea for a startup that I worked with along with my co-founder.
 
 ### User's MapView
 <img src="assets/mapView.jpg" alt="MapView" width="300" height="500"/>
-
-### Driver's Panel
-<img src="assets/driversPanel.png" alt="Driver's Page" width="300" height="500"/>
